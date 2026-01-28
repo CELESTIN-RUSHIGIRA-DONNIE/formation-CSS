@@ -2,6 +2,11 @@
     color: blue;
 }
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
 span {
     font-weight: bold;
 }
@@ -33,6 +38,9 @@ span {
 .main {
     padding: 20px;
     background: lightgrey;
+    line-height: 1;
+    font-size: 16px;
+    /* letter-spacing: 2px; */
 }
 
 .footer {
