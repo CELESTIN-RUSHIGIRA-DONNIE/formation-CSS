@@ -4,6 +4,8 @@
 
 body {
     margin: 0;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
     font-family: Arial, sans-serif;
 }
 
@@ -14,6 +16,9 @@ span {
 .header {
     padding: 20px;
     background: grey;
+    height: auto;
+    color: #FFFFFF;
+    height: 50%;
 }
 
 .header img {
@@ -26,13 +31,20 @@ span {
 }
 
 .header-nav {
-    margin:50px 0;
+    margin: 20px 0;
+    text-align: center;
+    height: 50%;
+    background: lightcoral;
 }
 
 .header-nav a {
     padding: 0 10px;
-    background: darkgrey;
-    color: white;
+    color: inherit;
+    text-decoration: none;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
 }
 
 .main {
